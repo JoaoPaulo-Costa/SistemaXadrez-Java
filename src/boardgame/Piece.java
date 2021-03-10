@@ -7,14 +7,11 @@ public class Piece {
 
     public Piece(Board board) {
         this.board = board;
-        position = null; //java por padrão já faz isso
+        //position = null; //java por padrão já faz isso
     }
 
     protected Board getBoard() {
         return board;
     }
-
-
-
 
 }
